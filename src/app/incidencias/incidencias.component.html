@@ -1,0 +1,104 @@
+<div class="principal">
+    <div class="nav">
+        <ul>
+          <li class="nav-site" style="background: linear-gradient(#3f2a88, #192d57);"><a href="../incidencias/incidencias.component.html" style="color: #fff;">Incidencias</a></li>
+          <li class="usuarios"><a href="#">Usuarios</a>
+              <ul class="usuariosSubmenu">
+                <li><a href="">Añadir Nuevo Usuario</a></li>
+                <li><a href="">Eliminar Usuario</a></li>
+              </ul>
+          </li>
+          <li class="actuaciones"><a href="../actuaciones/actuaciones.component.html">Actuaciones</a>
+            <ul class="submenu">
+              <li><a href="">Añadir Nueva Incidencia</a></li>
+              <li><a href="">Eliminar Incidencia</a></li>
+              <li><a href="">Modificar Incidencia</a></li>
+            </ul>
+          </li>
+          <li class="nav-site"><a href="#">Resumen</a></li>
+        </ul>
+    </div>
+
+
+    <div class="main">
+        <div class="filtros">
+            <button type="button" class="filtro" id="filtro1">Todas las Incidencias</button>
+            <button type="button" class="filtro" id="filtro2">Ordenar por: Mas recientes primero</button>
+            <button type="button" class="filtro" id="filtro3">Filtros</button>   
+        </div>
+        <hr>
+
+        <div class="incidencias" >
+            <div class="linea1">
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+            </div>
+
+            <div class="linea2">
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+            </div>
+
+            <div class="linea3">
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+
+                <div class="incidenciaCard" (click)="abrir()">
+                    <div class="Cardline2"><p>Nombre</p></div><div class="Cardline2"><p>Curso</p></div>
+                    <div class="Cardline2"><p>Telefono</p></div><div class="Cardline2"><p>Fecha Fin</p></div>
+                    <div class="Cardline1"><p>Sintomas</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="botones">
+        <button type="button" class="botpag" id="botant" (click)="pagant()">Página Anterior</button>
+        <nav class="navpaginas">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </nav>
+        <button type="button" class="botpag" id="botsig" (click)="pagsig()">Siguiente Página</button>
+    </div>

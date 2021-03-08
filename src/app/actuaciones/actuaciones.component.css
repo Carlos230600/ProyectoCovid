@@ -1,0 +1,153 @@
+.principal{
+    width: 100%;
+    height: 100vmin;
+    background-image: url('../../fondo-main.jpg');
+    background-size: contain;
+    margin: 0;
+    padding:0;
+    top: 0;
+}
+
+.nav ul {
+    list-style: none;
+    background: linear-gradient( #4e4e4e, #0a0a0a);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height:10vmin;
+    box-shadow: 0px 3px 4px rgb(54, 54, 54);
+  }
+  .nav li {
+    min-height: 10vh;
+    width: 25%;
+    line-height: 10vmin;
+    font-size: 2em;
+    display: inline-block;
+  }
+   
+  .nav a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    display: block;
+  }
+   
+  .nav a:hover {
+    background: linear-gradient(#727272, #444444);
+    color: #fff;
+  }
+   
+  .nav a:active {
+    background: linear-gradient(#aaaaaa, #777777);
+    color: #fff;
+    cursor: context-menu;
+  }
+
+  .usuariosSubmenu{
+    position: absolute;
+  }
+
+  .usuariosSubmenu li{
+    display: none;
+    color: rgb(133, 133, 133);
+    background: linear-gradient( #2c2c2c, rgb(32, 32, 32));
+    height:10px;
+    width:50vmin;
+    text-decoration: none;
+  }
+
+  .usuariosSubmenu li a{
+    font-size: 1.2pc;
+  }
+
+  .usuarios:hover .usuariosSubmenu li{
+    display: block;
+    animation: aparecetexto 0.5s ease-out forwards;
+  }
+
+  .submenu{
+    position: absolute;
+  }
+
+  .submenu li{
+    display: none;
+    color: rgb(133, 133, 133);
+    background: linear-gradient( #2c2c2c, rgb(32, 32, 32));
+    height:10px;
+    width:50vmin;
+    text-decoration: none;
+  }
+
+  .submenu li a{
+    font-size: 1.2pc;
+  }
+
+  .actuaciones:hover .submenu li{
+    display: block;
+    animation: aparecetexto 0.5s ease-out forwards;
+  }
+
+  #nuevaIncidenciabut{
+    margin-top: 3%;
+    width: 80%;
+    height: 10pc;
+    background: linear-gradient( #04805B, rgb(1, 71, 33));
+    margin-left: 10%;
+    color: white;
+    border-radius: 0.5em;
+    outline: none;
+    font-size: 3pc;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 0px 9px 5px #aaaaaa;
+  }
+
+  #nuevaIncidenciabut:active{
+    outline: none;
+  }
+
+  #nuevaIncidenciabit:focus{
+    outline: none;
+  }
+
+  #eliminarIncidenciabut{
+    margin-top: 3%;
+    width: 80%;
+    height: 10pc;
+    background: linear-gradient( #ff5858, rgb(187, 3, 3));
+    margin-left: 10%;
+    color: white;
+    border-radius: 0.5em;
+    outline: none;
+    font-size: 3pc;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 0px 9px 5px #aaaaaa;
+  }
+
+  #eliminarIncidenciabut:active{
+    outline: none;
+  }
+
+  #eliminarIncidenciabit:focus{
+    outline: none;
+  }
+
+  #modificarIncidenciabut{
+    margin-top: 3%;
+    width: 80%;
+    height: 10pc;
+    background: linear-gradient( #0016dd, #010e88);
+    margin-left: 10%;
+    color: white;
+    border-radius: 0.5em;
+    outline: none;
+    font-size: 3pc;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 0px 9px 5px #aaaaaa;
+  }
+
+  #modificarIncidenciabut:active{
+    outline: none;
+  }
+
+  #modificarIncidenciabit:focus{
+    outline: none;
+  }

@@ -1,0 +1,81 @@
+.principal{
+    width: 60%;
+    height: 50vmin;
+    background:linear-gradient(#362477, #15274d);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 5px 5px#979797;
+}
+
+.principal a{
+    margin-left:16.3%;
+}
+
+
+.tituloPrincipal{
+    background: linear-gradient( #313131, #0a0a0a);
+    text-align: center;
+    width: 60%;
+    height: 5vmin;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+    box-shadow: 3px 0px 4px#222222;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botones{
+    width: 100%;
+}
+
+.iniciarSesion{
+    background:linear-gradient(rgb(36, 255, 36),rgb(5, 253, 46));
+    width: 25vmin;
+    height: 5vmin;
+    font-size: 1.5pc;
+    border-radius: 1pc;
+    margin-top: 3vmin;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 136.5vmin;
+    border: none;
+    box-shadow: 2px 3px 5px#979797;
+}
+
+.iniciarSesion:hover{
+    background:linear-gradient(rgb(77, 247, 77),rgb(36, 247, 71));
+}
+
+.iniciarSesion:active{
+    background:linear-gradient(rgb(92, 253, 92),rgb(98, 247, 98));
+}
+
+
+.iniciarSesion:focus{
+    outline: none;
+}
+
+.campos{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.loginField{
+    width: 80vmin;
+    height: 4.5vmin;
+    margin-left:16.3%;
+    border-radius: 1pc;
+    border: none;
+    margin-bottom: 2%;
+    opacity: 0.8;
+    font-size: 1pc;
+}
+
+.loginField:hover{
+    opacity: 1;
+}
+
+.loginField:focus{
+    opacity: 1;
+    outline: none;
+}
